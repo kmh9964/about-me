@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="ko">
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>자바 백엔드 개발자 프로필</title>
+	<style>
+	/* 선택자 : 스타일을 적용할 대상을 가르키는 css문법, 클래스 또는 아이디 또는 공용선택자
+	          ,전체 선택자,universal Selector, 태그선택자(p/h1/img...), 그룹 선택자(p/h1/
+		선택자{
+			속성1: 값1:
+			속성2: 값2:
+		}*/
+		.d-none {
+			display: none; /* 표시: 안함 (화면상 필요 없지만 검색이 잘되게 하기 위해서 필요한것) */
+			
+		}
+		.text-center{
+			text-align: center;
+		}
+		h1,h4,h5,h3 {
+		text-align: center;
+	
+		}
+		.profile {
+			text-align:center;
+		}
+	.icons {
+		display: flex;      /* 표시방법 : 플렉스 */
+		justify-content: center; /* 컨텐츠 -정렬 : 가운데 */
+		column-gap: 1rem; /* 컬럼-간격: 1rem만큼 띄어줘 */
+		text-align:center;	/* 텍스트-정렬: 가운데 */
+	}
+	</style>
+	
+</head>
+<body class="text-center">
+	<h1 class="d-none">about</h1>
+ 	<div class="profile">
+ 		<img src="images/photo.png" alt="지원자 강미화" width="200">
+ 	</div>
+ 	<h4>바로 지금이 시작할때다. </h4>
+ 	<h5>새로운 꿈을 향해 열심히 달려가고 있는 강미화입니다. </h5>
+ 	<h3>social</h3>
+ 	<div class="icons">
+ 		<div>
+ 			<img src="images/blog.png" alt="link to blog">
+ 			<p>blog</p>
+ 		</div>
+ 		<div>
+ 			<img src="images/githup.png" alt="link to githup">
+ 			<p>githup</p>
+ 		</div>
+ 		<div>
+ 			<img src="images/katok.png" alt="link to katok">
+ 			<p>katok</p>
+ 		</div>
+ 	</div>
+ 	
+ 	
+</body>
+</html>
